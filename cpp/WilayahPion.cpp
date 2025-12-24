@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	ios_base :: sync_with_stdio(0);cin.tie(0);cout.tie(0);
+	int n,m;
+	cin >> n >> m;
+	if(n % 4 == 0 && m % 4 == 0){
+		cout << "Yes\n";
+	}
+	else{
+		cout << "No\n";
+	}
+	return 0;
+}
